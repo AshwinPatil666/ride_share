@@ -9,7 +9,6 @@ import Home from './pages/Home'
 import PostRide from './pages/PostRide'
 import RideDetail from './pages/RideDetail'
 import MyRides from './pages/MyRides'
-import History from './pages/History'
 import Profile from './pages/Profile'
 
 function App() {
@@ -62,14 +61,7 @@ function App() {
               </ProtectedRoute>
             }
           />
-          <Route
-            path="/history"
-            element={
-              <ProtectedRoute>
-                <History />
-              </ProtectedRoute>
-            }
-          />
+
           <Route
             path="/profile"
             element={
